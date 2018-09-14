@@ -1,1 +1,1 @@
-# d0siawow.github.io
+[ya.ru](Yandex)
