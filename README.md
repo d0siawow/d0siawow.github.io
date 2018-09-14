@@ -1,1 +1,1 @@
-[ya.ru](Yandex)
+[Yandex](ya.ru)
