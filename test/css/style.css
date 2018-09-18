@@ -1,0 +1,25 @@
+/* .col-lg-auto{
+	border: solid 1px red;
+} */
+
+a{
+	color: #b6b6b9; 
+}
+
+body{
+	background-image: url(/img/fon.png);
+}
+
+.logo{
+	margin: 40px 0px;
+}
+
+.right-nav, .left-nav{
+	list-style: none;
+	display: flex;
+}
+
+li{
+	margin-right: 45px;
+	text-decoration: none;
+}
