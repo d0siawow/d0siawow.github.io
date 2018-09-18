@@ -2,7 +2,7 @@
 	border: solid 1px red;
 } */
 
-body{
+body, html{
 	background-image: url(../img/fon.png);
 }
 
