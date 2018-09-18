@@ -2,12 +2,12 @@
 	border: solid 1px red;
 } */
 
-a{
-	color: #b6b6b9; 
-}
-
 body{
 	background-image: url("img/fon.png");
+}
+
+a{
+	color: #b6b6b9; 
 }
 
 .logo{
