@@ -3,7 +3,8 @@
 } */
 
 html{
-	background-image: url(/img/fon.png);
+	//background-image: url(/img/fon.png);
+	background-color: red;
 }
 
 a{
