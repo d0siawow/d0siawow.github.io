@@ -1,13 +1,50 @@
 /* .col-lg-auto{
 	border: solid 1px red;
 } */
-
-body, html{
-	background-image: url(../img/fon.png);
+@font-face {
+    font-family: 'PF Scandal Pro';
+    src: url('../font/PFScandalPro-Black.eot');
+    src: url('../font/PFScandalPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/PFScandalPro-Black.woff2') format('woff2'),
+        url('../font/PFScandalPro-Black.woff') format('woff'),
+        url('../font/PFScandalPro-Black.ttf') format('truetype'),
+        url('../font/PFScandalPro-Black.svg#PFScandalPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
 }
 
 a{
-	color: #b6b6b9; 
+	color: #b6b6b9;
+	position: relative;
+}
+
+ a:hover{
+	color: #CACACD;
+	text-decoration: none;
+} 
+
+ a::before{
+	content: '';
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color: #CACACD;
+	transition: 0.2s;
+	transform: scaleX(0);
+}
+
+ a:hover::before{
+	width: 100%;
+	transform: scaleX(1);
+}
+
+
+body{
+	background-image: url(../img/fon.png);
+	font-family: 'PF Scandal Pro', Verdana;
+	font-size: 18px;
 }
 
 .logo{
